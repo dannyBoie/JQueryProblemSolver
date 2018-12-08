@@ -1,0 +1,132 @@
+/* 
+    Document   : styles
+    Created on : Dec 8, 2013, 3:00:57 PM
+    Author     : tcolburn
+    Description:
+        Styles for the JavaScript Problem Solver
+*/
+
+root { 
+    display: block;
+}
+
+.header {
+    width: 550px;
+}
+
+.outer {
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 10px; 
+}
+
+.left {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+
+.right {
+    width: 200px;
+    position: absolute;
+    right: 50px;
+}
+.bottom {
+    position: absolute;
+    width: 500px;
+    bottom: 0px;
+}
+
+.center {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.centerBold {
+    text-align: center;
+    font-weight: bold;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.emphasized {
+    color: red;
+    font-weight: bold;
+}
+
+.background{
+    background-color: crimson;
+    
+}
+
+.congratsMessage{
+    padding-top: 25px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.solvedMessage{
+    padding-top: 25px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.moveCount{
+    padding-top: 25px;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.movesMessage{
+    padding-top: 25px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navButton{
+    
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 25px;
+    font-size: 25px;
+}
+
+.buttons{
+    padding-top: 25px;
+    padding-left: 100px;
+}
+
+.goodbye{
+    color: aqua;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.statetext {
+    padding-top: 25px;
+    margin-left: 180px;
+    width: 150px;
+    height: 125px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-left: -40px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}

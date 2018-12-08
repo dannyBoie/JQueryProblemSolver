@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solver Test</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/farmer/FarmerState.js"></script>
+        <script src="js/farmer/FarmerMover.js"></script>
+        <script src="js/farmer/FarmerProblem.js"></script>
+        <script src="js/waterjug/WaterJugState.js"></script>
+        <script src="js/waterjug/WaterJugMover.js"></script>
+        <script src="js/waterjug/WaterJugProblem.js"></script>
+        <script src="js/solve.js"></script>
+        <script>
+            $(document).ready(function() {
+                init();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header centerBold">
+            Select Problem: <select id="selector"></select>
+        </div>
+        
+        <div id="problemPanel" class="outer">
+            
+            <p class="centerBold">
+               Welcome to the
+               <span id="probName" class="emphasized"></span>
+               Problem
+            </p>
+            
+            <p id="intro" class="justified"></p>
+            
+            <div class="left centerBold">
+                <span>Current State</span>
+                <p><textarea id="state"></textarea></p>
+            </div>
+            
+            <div class="right centerBold">
+                <span>Possible Moves</span>
+                <ul id="moveTable"></ul>
+            </div>
+            
+            <div class="bottom centerBold">
+                <span id="message" class="emphasized"></span>
+                <p><input id="reset" type="button" value="RESET"/></p>
+            </div>
+            
+        </div>
+    </body>
+</html>
